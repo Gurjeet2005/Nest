@@ -1,29 +1,38 @@
-# 🪺 Nest — Your Personal Digital Diary
+🪺 Nest — Your Personal Digital Diary
+Nest is a simple and secure digital diary app designed to help you capture your daily thoughts and emotions. It offers a clean writing space and uses machine learning to understand the mood behind your words.
 
-Welcome to **Nest**, your private space to write, reflect, and unwind. Whether it's a quick note or a deep reflection, Nest offers a clean and simple journaling experience — powered by smart technology and built with care.
+✨ Features
+🖊️ Daily Journaling: Write, edit, and manage your diary entries easily.
 
----
+😊 Mood Detection: Sentiment analysis powered by a custom-built machine learning model that analyzes the emotional tone of your text.
 
-## ✨ Features
+🔐 Secure Authentication: User login and data storage powered by Firebase Authentication and Firestore.
 
-- 🖊️ **Daily Journaling**: Write, view, and manage your diary entries with ease.
-- 😊 **Mood Detection**: Automatically analyze the tone of your writing using sentiment analysis.
-- 🔐 **Secure Authentication**: Log in safely and access only your own entries using Firebase Auth.
+🛠️ Technology Used
+Frontend: React Native or Flutter (based on your implementation)
 
----
+Backend: Flask (Python)
 
-## 🛠️ Tech Stack
+Database & Authentication: Firebase Firestore and Firebase Authentication
 
-**Frontend**  
-- React Native or Flutter *(depending on implementation)*
+Machine Learning: Custom sentiment analysis model built from scratch using Python libraries such as scikit-learn and NLTK.
 
-**Backend**  
-- Flask (Python)  
-- RESTful API
+🌍 How It Works
+Write your diary entry in Nest.
 
-**Database & Auth**  
-- Firebase Firestore (Cloud Database)  
-- Firebase Authentication
+The backend processes your text through the custom ML model to predict the sentiment — positive, negative, or neutral.
 
-**AI / NLP**  
-- Sentiment analysis using OpenAI or Hugging Face
+Your mood is displayed alongside the entry to help you better understand your emotional patterns.
+
+🔮 Future Enhancements
+Improve sentiment analysis accuracy with ongoing training.
+
+Add offline journaling capabilities.
+
+Support for multiple languages.
+
+🤝 Contributing
+Contributions, suggestions, and bug reports are welcome! Feel free to fork the repo and submit pull requests.
+
+📄 License
+This project is licensed under the MIT License.
